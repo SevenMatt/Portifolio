@@ -18,6 +18,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                         &#9776;
                     </div>
 
+                    <div className="hidden md:flex items-center space-x-8">
                         <a 
                         href="#home"
                         className="text-gray-300 hover:text-white transition-colors"
@@ -46,6 +47,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                          {" "}
                          Contact{" "}
                         </a>
+                    </div>
                 </div>
             </div>
         </nav>
