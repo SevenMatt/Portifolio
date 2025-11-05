@@ -42,7 +42,7 @@ export const About = () => {
                                 <span 
                                 key={key}
                                 className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20
-                                                 hover:shadow-0[0_2px_8px_rgba(59,130,2246,0.2)]
+                                                 hover:shadow-0[0_2px_8px_rgba(59,130,246,0.2)]
                                 "
                                 >
                                     {tech}
@@ -81,7 +81,6 @@ export const About = () => {
                         </li>
                     </ul>
                 </div>
-                
             </div>
         </div>
     </section>
