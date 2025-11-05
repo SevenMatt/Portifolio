@@ -24,25 +24,45 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         
             <a 
                         href="#home"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        onClick={() => setMenuOpen(false)}
+                        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                                    ${menuOpen ? "opacivy-100 translate-y-0"
+                                               : "opacivy-0 translate-y-5"
+                                    }
+                              `}
                         >
                          Home
                         </a>
                         <a 
                         href="#about"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        onClick={() => setMenuOpen(false)}
+                         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                                    ${menuOpen ? "opacivy-100 translate-y-0"
+                                               : "opacivy-0 translate-y-5"
+                                    }
+                              `}
                         >
                          About
                         </a>
                         <a 
                         href="#projects"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        onClick={() => setMenuOpen(false)}
+                        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                                    ${menuOpen ? "opacivy-100 translate-y-0"
+                                               : "opacivy-0 translate-y-5"
+                                    }
+                              `}
                         >
                          Projects
                         </a>
                         <a 
                         href="#contact"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        onClick={() => setMenuOpen(false)}
+                         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                                    ${menuOpen ? "opacivy-100 translate-y-0"
+                                               : "opacivy-0 translate-y-5"
+                                    }
+                              `}
                         >
                          Contact
                         </a>
