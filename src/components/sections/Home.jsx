@@ -1,4 +1,5 @@
 
+
 export const Home = () => {
     return ( 
     <section 
@@ -18,14 +19,14 @@ export const Home = () => {
             </p>
             <div className="flex justify-center space-x-4">
                 <a 
-                href="projects" 
+                href="#projects" 
                 className="bg-green-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                 >
                 View Projects
                 </a>
 
                 <a 
-                href="contact" 
+                href="#contact" 
                 className="border border-green-500/50 text-green-400 py-3 px-6 rounded font-medium transition-all duration-200
                 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] hover:bg-green-500/10"
                 >
